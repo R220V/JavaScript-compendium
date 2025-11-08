@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/JavaScript-compendium
-/",
+    "build": "vite build --base=/JavaScript-compendium/",
     "preview": "vite preview"
   },
   "devDependencies": {

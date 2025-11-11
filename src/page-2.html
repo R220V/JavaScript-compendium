@@ -2,16 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
     <title>Page 2</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./main.js" defer></script>
   </head>
   <body>
     <load
       src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
+      icon-path="./img/Logo__Krus__.svg"
+      highlight-curr2="active"
     />
 
     <main>
@@ -21,6 +25,29 @@
         </h1>
         <load src="./partials/back-link.html" />
       </div>
+
+
+      <section class="topic">
+  <h2>1. Що таке JavaScript?</h2>
+
+  <div class="theory">
+    <p><strong>JavaScript</strong> — це мова програмування, яка додає вебсторінці динаміку. 
+    Вона дозволяє реагувати на дії користувача, змінювати HTML, працювати з даними та створювати інтерактивні сайти.</p>
+  </div>
+
+  <div class="example">
+    <p>🧩 Приклад:</p>
+    <textarea id="code1">alert("Привіт, JavaScript!");</textarea>
+    <button onclick="runCode('code1', 'output1')">▶ Запустити</button>
+    <pre id="output1" class="output"></pre>
+  </div>
+
+  <div class="summary">
+    💬 <b>Висновок:</b> JavaScript — це “розум” сторінки, який дозволяє зробити сайт живим і інтерактивним.
+  </div>
+</section>
+
+
     </main>
 
     <load src="./partials/footer.html" />

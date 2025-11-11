@@ -1,0 +1,53 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: transparent;
+  color: #b3b3b3ff;
+  margin: 0;
+  padding: 0.3em;
+}
+
+.topic {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.theory, .example, .summary {
+  margin-top: 1em;
+}
+
+textarea {
+  width: 100%;
+  min-height: 70px;
+  font-family: monospace;
+  background: #222;
+  color: #0f0;
+  border-radius: 6px;
+  border: none;
+  padding: .5em;
+}
+
+button {
+  background: #0f62fe;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0353e9;
+}
+
+.output {
+  background: #000;
+  color: #0f0;
+  padding: 0.5em;
+  border-radius: 6px;
+  min-height: 1em;
+}
+

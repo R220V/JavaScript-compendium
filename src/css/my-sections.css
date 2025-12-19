@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: system-ui, sans-serif;
   background: transparent;
   color: #b3b3b3ff;
@@ -11,10 +11,12 @@ body {
   border-radius: 12px;
   padding: 1em;
   margin-bottom: 1em;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.theory, .example, .summary {
+.theory,
+.example,
+.summary {
   margin-top: 1em;
 }
 
@@ -26,7 +28,7 @@ textarea {
   color: #0f0;
   border-radius: 6px;
   border: none;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 button {
@@ -49,5 +51,4 @@ button:hover {
   padding: 0.5em;
   border-radius: 6px;
   min-height: 1em;
-}
-
+} */

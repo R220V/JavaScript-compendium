@@ -12,11 +12,12 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+/* @import url('./vite-promo.css'); */
+/* @import url('./badges.css'); */
+/* @import url('./back-link.css'); */
 @import url('./footer.css');
 
 @import url('./my-sections.css');
 @import url('./test-bg-raptor.css');
 @import url('./switch-theme.css');
+@import url('./scroll.css');

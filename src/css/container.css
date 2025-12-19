@@ -1,19 +1,22 @@
 /* Styles for Mobile devices */
 .container {
+  /* box-sizing: border-box; */
   /* min-width: 320px; */
-  /* max-width: 375px; */
+  width: 100%;
   margin: 0 auto;
-  padding: 0 5px;
+  padding: 0 15px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 35px;
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    padding: 0 65px;
   }
 }

@@ -1,13 +1,12 @@
-
 /* #region footer  */
- .footer {
+.footer {
   position: relative;
   margin: 6px auto;
-  max-width: 766px;
   width: 100%;
   padding: 6px;
   box-shadow: inset 0 0 7px rgb(0, 255, 255);
   border-radius: 4px;
+  /* box-sizing: border-box; */
 }
 
 .footer-right {
@@ -19,25 +18,24 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  max-width: 900px;
+  min-width: 320px;
   font-size: 1rem;
   margin: 0 auto;
   width: 100%;
-
 }
 .footer-left p,
 .footer-right p {
   display: flex;
   justify-content: center;
-  line-height: 1.5; 
+  line-height: 1.5;
   margin-top: 7px;
-  }
+}
 .footer .copy {
   text-align: center;
   font-size: 0.9rem;
   margin: 5px;
-  color: #7a7a7aff;; 
-} 
+  color: #7a7a7aff;
+}
 
 /* #region  logo */
 .logo {
@@ -45,12 +43,10 @@
   bottom: 38px;
   left: -17px;
   padding: 4px 6px;
-  transform: rotate(270deg) scale(0.8);
+  transform: rotate(270deg) scale(0.9);
   cursor: pointer;
   border: 1px solid rgba(190, 190, 190, 1);
-  box-shadow:
-    0 0 5px 2px #000000ff,
-    inset 0 0 18px #63636386;
+  box-shadow: 0 0 5px 2px #000000ff, inset 0 0 18px #63636386;
   border-radius: 4px;
   transition: ease 350ms;
   z-index: 6;
@@ -91,6 +87,3 @@
 }
 
 /* #endregion footer */
-
-
-

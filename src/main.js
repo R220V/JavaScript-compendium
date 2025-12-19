@@ -1,3 +1,5 @@
+import './styles/main.css';
+import './scripts/app.js';
 
 function runCode(inputId, outputId) {
   const code = document.getElementById(inputId).value;
@@ -8,5 +10,4 @@ function runCode(inputId, outputId) {
   } catch (err) {
     output.textContent = '❌ Помилка: ' + err.message;
   }
-};
-
+}
